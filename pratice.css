@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    /* border: 5px solid black; */
+    /* height: 40px; */
+    background-color: black;
+    padding: 20px;
+}
+section > a{
+    margin: 40px ;
+    text-decoration: none;
+    padding-top: 10px;
+}
+section > span{
+    margin:auto;
+    text-decoration: none;
+    padding-top: 10px;
+    color: red;
+    text-decoration: dashed;
+    margin: 40px;
+    width: 5px;    
+}
+header{
+    /* border: 20px solid chocolate; */
+    height:500px;
+    width: 80%;
+    margin: auto;
+    /* background-image: linear-gradient( red , black); */
+    background-color:rgb(204, 199, 199);
+    /* opacity: 1;  */
+    text-align: center;
+    
+}
+header>h1{
+    opacity: 1.5;
+ padding: 4%;
+   font-weight:bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-bottom: 2px solid;
+   margin-bottom: 10px;
+   
+}
+header>span{
+    padding: 10px;
+    margin-top: 20px;
+    opacity: 1.5;
+ /* padding: 4%; */
+   font-weight:bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /* border-bottom: 2px solid; */
+   /* border: 5px solid; */
+   background-color: aqua;
+   /* position: absolute;
+   left: 14%; */
+}
+header>img{
+    border:10px solid ;
+width: 50%;
+height: 50%;
+position: absolute;
+right: 10%;
+top: 35%;
+left:20%;
+border-radius: 70%;
+box-sizing: border-box;
+margin: auto;
+
+}
+footer{
+    /* border: 5px solid black; */
+    height: 100px;
+    width:80%;
+    background-color:black;
+    margin: auto;
+}
+header>div{
+    background-color: azure;
+    margin-top: auto;
+    border:2px solid ;
+    height:300px;
+    width: 250px;
+    box-sizing: border-box;
+padding: 10px; 
+margin: 10px;
+text-align: center;
+overflow:scroll;
+font-weight: 900;
+font-size: larger;
+}
+ol{
+    margin: 70px;
+ opacity:1;
+    padding: 10px; 
+   font-size:20px;
+}
+span{
+    color:red;
+    font-style:none;
+    margin: 10px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+footer>span>div{
+    margin: 9px;
+  
+}
